@@ -1,6 +1,39 @@
 /* INTRO SECTION */
-@media screen and (max-width: 768px) {
+.container {
+  width: 100%;
+}
+
+.row {
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 769px) {
   .container {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .row{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 2rem;
+  }
+
+}
+
+/* HOW IS WORK */
+@media screen and (max-width: 480px) {
+  .steps .col {
+    width: 100%;
+  }
+}
+
+/* LAST SECTION */
+@media screen and (max-width: 480px) {
+  body {
+    background-color: #222222;
   }
 }
